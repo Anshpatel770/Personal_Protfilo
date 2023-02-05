@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+
+
+*{
+padding: 0;
+margin: 0;
+}
+nav{
+     position: sticky;
+}
+
+.container{
+     display: flex;
+     justify-content: space-between;
+     border: 2px solid black;
+    
+     background-color: rgb(89, 90, 89);
+     padding: 12px 1px;
+}
+.logo{
+     margin: 0px auto;
+     width: 70%;
+}
+.logo h1{
+     font-family: 'Montserrat', sans-serif;
+     font-size: 30px;
+     color: white;
+     
+}
+nav ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 15px;
+     margin-right: 7%;
+}
+nav ul li{
+     list-style: none;
+    
+}
+nav ul li a{
+     font-family: 'Merriweather', serif;
+     text-decoration: none;
+    
+     color: white;
+     font-size: 20px;
+}
+ul li a:hover{
+     color: greenyellow;
+}
+.container-2{
+     background-color:black;
+     /* width: 1330px; */
+     border: 2px solid black;
+}
+.card{
+     display: flex;
+     justify-content: space-between;
+}
+.hero{
+     /* margin: 243px 355px; */
+}
+.hero h1{
+     font-family: 'Montserrat', sans-serif;
+     color: white;
+     margin: 200px 200px;
+    
+}
+.hi-text{
+font-size: 74px;
+color: red;
+margin: 15px;
+}
+.text{
+     font-size: 74px;
+     color: red; 
+     margin: 2px 36px;
+}
+.hero h4{
+color: white;
+margin-left: 277px;
+    /* margin-bottom: 9px; */
+    margin-top: -181px;
+    font-size: 50px;
+}
+.hero-image{
+     margin-left: 87px;
+}
+.container-3{
+     background-color: rgb(225 143 32);
+}
+.container-3 h1{
+     text-align: center;
+     font-family: 'Merriweather', serif;
+     font-size: 45px;
+
+}
+.cards{
+     display: flex;
+     margin-left: 21%;
+     margin-top: 4%;
+    gap: 59px;
+}
+.card-images img{
+     border-radius: 20px;
+     cursor: pointer;
+     transition: 0.2s ease-in-out;
+
+}
+.card-images img:hover{
+     transform: scale(1.02);
+     box-shadow: 4px 3px 4px rgb(89, 90, 89);
+}
+
+.cardes{
+     display: flex;
+     margin-left: 21%;
+     gap: 59px;
+     margin-top: 50px;
+}
+.carde-images img{
+     border-radius: 20px;
+     cursor: pointer;
+     transition: 0.2s ease-in-out;
+
+}
+.carde-images img:hover{
+     transform: scale(1.02);
+     box-shadow: 4px 3px 4px rgb(89, 90, 89);
+}
+.container-5{
+     background-color: rgb(166 157 145);
+     margin-top: -31px;
+}
+.main{
+     height: 480px;
+}
+.main h1{
+     text-align: center;
+     margin-top: 2%;
+     font-family: 'Montserrat', sans-serif;
+     padding: 130px 0px;
+     font-size: 50px;
+}
+.contact ul{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+     margin-top: -6%;
+}
+.contact ul li{
+     list-style: none;
+     cursor: pointer;
+}
+.contact ul li i{
+     font-size: 25px;
+}
+h3{
+     font-size: 25px;
+     cursor: pointer;
+}
